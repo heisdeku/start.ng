@@ -3,16 +3,17 @@
 
 <head>
     <title>My Personal CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
-        <h3 color="lightblue">Adedokun Oluwaferanmi</h3>
+    <div class="one">
+        <h3>Adedokun Oluwaferanmi</h3>
         <p>Developer (Frontend & Backend)</p>
-        <pre>github.com/techiefer</pre>
+        <pre><a href="https://www.github.com/techiefer">github.com/techiefer</a></pre>
     </div>
 
-    <div align="right">
+    <div class="add">
         <address>
             <pre>
                 No. 19 Alafia Street, Agbede,
@@ -23,40 +24,43 @@
         </address>
     </div>
 
-    <div class="portfolio">
-        <table>
-            <tr>
-                <td>
-                    <img src="https://res.cloudinary.com/techiefer/image/upload/v1567008542/IMG_20190126_092426_583_wm7jtd.jpg" alt="oluwaferanmi's photo" width="163px" height="200px">
-                </td>
-            </tr>
+    <div id="container">
+        <div class="picture">
+            <img src="https://res.cloudinary.com/techiefer/image/upload/v1567008542/IMG_20190126_092426_583_wm7jtd.jpg" alt="oluwaferanmi's photo" width="163px" height="200px">
+        </div>
 
-            <tr>
-                <td>
-                    <h3><strong>PROFESSIONAL PROFILE</strong></h3>
-                    <p>
-                        I am able to create and develop custom website templates, manage pre-esiting templates.<br> My areas of expertise include version control, styling of websites content and test driven development<br> I could also focus on the development
-                        of the backend
-                    </p>
+        <div class="information">
+            <table>
+                <tr>
+                    <td>
+                        <h3><strong>PROFESSIONAL PROFILE</strong></h3>
+                        <p>
+                            I am able to create and develop custom website templates, manage pre-esiting templates.<br> My areas of expertise include version control, styling of websites content and test driven development<br> I could also focus on the
+                            development of the backend
+                        </p>
 
-                </td>
+                    </td>
 
-                <td>
-                    <h3><strong>CORE SKILLS AND ACHIEVEMENTS</strong></h3>
-                    <ul>
-                        <li>
-                            Basic Web Developmet skills(HTML, CSS)
-                        </li>
-                        <li>Javascript</li>
-                        <li>PHP</li>
-                        <li>Python</li>
-                        <li>Flask(Python Framework)</li>
-                        <li>Teamwork</li>
-                        <li>Communcication</li>
-                    </ul>
-                </td>
-            </tr>
 
+                    <td>
+                        <h3><strong>CORE SKILLS AND ACHIEVEMENTS</strong></h3>
+                        <ul>
+                            <li>
+                                Basic Web Developmet skills(HTML, CSS)
+                            </li>
+                            <li>Javascript</li>
+                            <li>PHP</li>
+                            <li>Python</li>
+                            <li>Flask(Python Framework)</li>
+                            <li>Teamwork</li>
+                            <li>Communcication</li>
+                        </ul>
+                    </td>
+                </tr>
+
+        </div>
+
+        <div class="about me">
             <tr>
                 <td>
                     <h3><strong>EDUCATION</strong></h3>
@@ -75,6 +79,10 @@
                 </td>
             </tr>
 
+        </div>
+
+        <div class="projects">
+
             <tr>
                 <td>
                     <h3><strong>PROJECTS</strong></h3>
@@ -84,6 +92,8 @@
                     </p>
                 </td>
             </tr>
+
+        </div>
         </table>
     </div>
 </body>
